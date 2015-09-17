@@ -27,7 +27,7 @@ namespace FoldersSync
 		private const int Sleeptime = 15; //15 Minutes
 		private const int LogMaxLength = 5000000; //5mB
 		private const string RootDir = @"C:\filesync";
-		private static bool exitSystem = false;
+		private static bool exitSystem;
 
 		#region Trap application termination
 
